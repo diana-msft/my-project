@@ -20,4 +20,4 @@
 
 **Посмотреть**
 
-* [Ссылка на сайт](https://diana-msft.github.io/my-project/)
+* [Ссылка на сайт](https://github.com/diana-msft/russian-travel.git)
