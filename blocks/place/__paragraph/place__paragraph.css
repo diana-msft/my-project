@@ -6,3 +6,19 @@
   font-size: 16px;
   line-height: 1.63;
 }
+
+@media screen and (max-width:768px) {
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 163%;
+    grid-column: 1;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .place__paragraph {
+    max-width: 90%;
+    padding-top: 26px;
+    padding-bottom: 0px;
+  }
+}
