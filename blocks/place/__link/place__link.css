@@ -5,3 +5,7 @@
   transition: opacity .55s ease;
   text-decoration: underline;
 }
+
+.place__link:hover {
+  opacity: .8;
+}
