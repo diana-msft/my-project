@@ -20,4 +20,4 @@
 
 **Посмотреть**
 
-* [Ссылка на сайт](https://diana-msft.github.io/another-project-2035)
+* [Ссылка на сайт](https://diana-msft.github.io/my-project/)
