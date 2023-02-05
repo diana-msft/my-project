@@ -7,7 +7,7 @@
   line-height: 1.09;
   align-self: flex-end;
   max-width: 460px;
-  width: 100%
+  width: 100%;
 }
 
 @media screen and (max-width:1024px) {
