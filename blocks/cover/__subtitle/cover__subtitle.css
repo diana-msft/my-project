@@ -12,3 +12,19 @@
   left: calc((100% - 360px)/2);
   bottom: calc((100% - 250px)/2);
 }
+
+@media screen and (max-width:420px) {
+  .cover__subtitle {
+    font-size: 4.375vw;
+    line-height: 1.14;
+    width: 90%;
+    left: calc((100% - 90%)/2);
+    bottom: calc((100% - 134px)/2);
+    padding-top: 32px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .cover__subtitle {
+    padding-top: 32px;
+  }
+}
