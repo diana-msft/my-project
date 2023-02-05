@@ -8,3 +8,10 @@
   line-height: 1.5;
   text-align: right;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
