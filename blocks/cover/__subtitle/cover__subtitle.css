@@ -8,7 +8,6 @@
   margin: 0;
   display: flex;
   align-self: center;
-  position: absolute;
   left: calc((100% - 360px)/2);
   bottom: calc((100% - 250px)/2);
 }
