@@ -7,9 +7,8 @@
   text-align: center;
   align-self: center;
   color: #fff;
-  margin: 0;
-  left: calc((100% - 560px)/2);
-  top: calc((100% - 250px)/2);
+  margin: 245px auto 32px;
+  z-index: 1;
 }
 
 @media screen and (max-width:700px) {
