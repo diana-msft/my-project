@@ -9,7 +9,7 @@
   z-index: 1;  
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 4.375vw;
     line-height: 1.14;
@@ -18,9 +18,5 @@
     bottom: calc((100% - 134px)/2);
     padding-top: 32px;
   }
-}
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    padding-top: 32px;
-  }
-}
+} */
+

@@ -9,3 +9,10 @@
     margin: 58px auto 8px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__container {
+    width: 768px;
+    margin: 58px auto 8px;
+  }
+}
