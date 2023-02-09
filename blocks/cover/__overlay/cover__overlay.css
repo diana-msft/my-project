@@ -9,3 +9,10 @@
   position: absolute;
   transition: ease-in .5s;
 }
+
+@media screen and (max-width:1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}

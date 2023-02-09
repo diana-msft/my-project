@@ -2,3 +2,10 @@
   margin: 64px auto;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__container {
+    width: 90.625%;
+    margin: 58px auto 8px;
+  }
+}

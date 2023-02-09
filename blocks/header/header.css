@@ -17,6 +17,7 @@
 @media screen and (max-width:1024px) {
   .header {
     width: 90.625%;
+    padding: 28px 0 48px;
   }
 }
 

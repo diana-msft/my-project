@@ -8,11 +8,6 @@
   letter-spacing: 2px;
 }
 
-@media screen and (max-width:768px) {
-  .place__url-heading {
-    width: 45.83%;
-  }
-}
 
 @media screen and (max-width:320px) {
   .place__url-heading {
