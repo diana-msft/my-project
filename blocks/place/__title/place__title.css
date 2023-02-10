@@ -23,10 +23,12 @@
   }
 }
 
-/* @media screen and (max-width:640px) {
+@media screen and (max-width:320px) {
   .place__title {
-    font-size: 2rem;
-    line-height: 109%;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    line-height: 1.9;
+    margin: 0 16px 14px;
+    max-width: 288px;
+    max-height: 35px;
   }
-} */
+}

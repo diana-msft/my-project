@@ -4,25 +4,20 @@
   align-items: flex-end;
   max-width: 1184px;
   font-size: 18px;
-  margin: 28px 0 56px;
-}
-
-@media screen and (max-width:1280px) {
-  .header {
-    width: 92.5%;
-  }
+  margin: 28px 48px 56px;
 }
 
 @media screen and (max-width:1024px) {
   .header {
-    width: 90.625%;
-    margin: 28px 0 48px;
+    width: 928px;
+    margin: 28px 48px 48px;
   }
 }
 
 @media screen and (max-width:768px) {
   .header {
-    width: 93.75%;
+    width: 720px;
+    margin: 28px 24px 48px;
   }
 }
 

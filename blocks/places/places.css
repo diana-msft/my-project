@@ -15,15 +15,15 @@
   .places {
     max-width: 720px;
     max-height: 2808px;
-    gap: 72px;
+    gap: 73px;
     margin: 88px auto 0;
   }
 }
 
 @media screen and (max-width:320px) {
   .places {
-    padding-top: 64px;
     width: 100%;
-    gap: 50px;
+    gap: 32px;
+    margin: 0;
   }
 }

@@ -2,3 +2,9 @@
   display: flex;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__item {
+  row-gap: 32px;  }
+}
+

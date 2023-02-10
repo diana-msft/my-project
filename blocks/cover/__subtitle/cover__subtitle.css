@@ -9,14 +9,12 @@
   z-index: 1;  
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
-    font-size: 4.375vw;
+    font-size: 14px;
     line-height: 1.14;
-    width: 90%;
-    left: calc((100% - 90%)/2);
-    bottom: calc((100% - 134px)/2);
+    max-width: 288px;
     padding-top: 32px;
   }
-} */
+}
 

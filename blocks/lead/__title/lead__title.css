@@ -24,5 +24,6 @@
   .lead__title {
     width: 100%;
     line-height: 1.1;
+    font-size: 40px;
   }
 }
