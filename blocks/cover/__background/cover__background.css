@@ -1,0 +1,30 @@
+.cover__background {
+  background-image: url(../../../images/cover-trains.jpg);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cover__background:hover .cover__overlay {
+  transition: ease-in .5s;
+  opacity: .8;
+}
+
+@media screen and (max-width:1024px) {
+  .cover__background {
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__background {
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
