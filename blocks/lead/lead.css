@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead {
-    /* width: 90.625%; */
-  }
-}
-
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
