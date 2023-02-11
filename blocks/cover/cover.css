@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  min-height: 200px;
+  min-width: none;
   display: flex;
   position: relative;
   margin: 92px auto;
@@ -27,7 +27,7 @@
 
 @media screen and (max-width:1280px) {
   .cover {
-    max-width: 1184px;
+    /* min-width: 1184px; */
     max-height: 740px;
     margin-top: 92px;
   }
@@ -35,19 +35,19 @@
 
 @media screen and (max-width:1024px) {
   .cover {
-    max-width: 1024px;
+    /* min-width: 1024px; */
     max-height: 640px;
-    left: -48px;
-    right: -96px;
+    /* left: -48px;
+    right: -96px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-width: 768x;
+    /* min-width: 768x; */
     max-height: 480px;
-    left: -24px;
-    right: -88px;
-    margin-top: 10px;
+    /* left: -24px;
+    right: -88px; */
+    /* margin-top: 10px; */
   }
 }
