@@ -1,9 +1,9 @@
   .cover__link {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-decoration: none;
     max-width: 1184px;
@@ -12,7 +12,10 @@
   
   @media screen and (max-width: 1024px) {
     .cover__link {
-      height: 640px;
+      min-width: 1024px;
+      max-height: 640px;
+      left: -48px;
+      right: 48px;
     }
   }
   

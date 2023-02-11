@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 1184px;
   max-height: 52px;
   font-size: 18px;
-  margin-top: 28px;
-  margin-bottom: 56px;
+  margin: 28px 48px 56px;
 }
 
 @media screen and (max-width:1024px) {
   .header {
-    /* width: 928px; */
-    margin: 28px 48px 48px;
+    margin: 28px 0 48px;
   }
 }
 

@@ -1,6 +1,6 @@
 .intro {
   max-width: 984px;
-  margin: 0 auto;
+  margin: 114px 148px 92px;
   min-width: 288px;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 90.625%;
+    margin: 93px 0;
   }
 }
 

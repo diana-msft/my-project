@@ -9,6 +9,12 @@
   z-index: 1;  
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin: 0 auto 195px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
