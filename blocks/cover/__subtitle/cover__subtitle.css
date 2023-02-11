@@ -15,12 +15,18 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin: 0 auto 130px;
+  }
+}
+
+/* @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
     max-width: 288px;
     padding-top: 32px;
   }
-}
+} */
 

@@ -6,16 +6,23 @@
   text-align: center;
   align-self: center;
   color: #fff;
-  padding-bottom: 32px;
-  margin: 0;
+  padding: 0;
+  margin: 0 auto 32px;
   z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    padding: 0;
-    margin-bottom: 35px;
+    margin-bottom: 32px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .cover__title {
+    /* width: 560px;
+    height: 152px; */
+    font-size: 72px;
+    line-height: 1.06;
   }
 }
 
@@ -28,13 +35,5 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .cover__title {
-    width: 560px;
-    height: 152px;
-    font-size: 72px;
-    line-height: 1.06;
-    padding-top: 231px;
-  }
-}
+
  

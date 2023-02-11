@@ -12,7 +12,7 @@
   
   @media screen and (max-width: 1024px) {
     .cover__link {
-      min-width: 1024px;
+      max-width: 1024px;
       max-height: 640px;
       left: -48px;
       right: 48px;
@@ -21,8 +21,11 @@
   
   @media screen and (max-width: 768px) {
     .cover__link {
-      height: 480px;
-      /* max-width: 768px; */
+      max-width: 768px;
+      max-height: 480px;
+      left: -24px;
+      right: 24px;
+      margin-top: 10px;
     }
   }
   

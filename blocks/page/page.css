@@ -16,11 +16,14 @@
 @media screen and (max-width: 768px) {
   .page {
     margin: 0 24px;
+    min-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
     margin: 0 16px;
+    min-width: 320px;
+    min-height: auto;
   }
 }
