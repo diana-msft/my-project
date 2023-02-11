@@ -6,19 +6,20 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    max-width: 1184px;
     height: 740px;
   }
   
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .cover__link {
       height: 640px;
     }
   }
   
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .cover__link {
       height: 480px;
-      width: 768px;
+      /* max-width: 768px; */
     }
   }
   

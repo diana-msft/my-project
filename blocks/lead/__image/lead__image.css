@@ -1,10 +1,10 @@
 .lead__image {
   width: 100%;
   display: block;
-  margin: 64px auto 0 auto;
+  /* margin: 64px auto 0 auto; */
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
     max-height: 580px;
@@ -25,4 +25,4 @@
   .lead__image {
     margin-top: 40px;
   }
-}
+} */

@@ -1,6 +1,7 @@
 .cover {
   max-width: 1184px;
   min-height: 200px;
+  display: flex;
   position: relative;
   margin: 92px auto;
   padding-bottom: 0;
@@ -24,6 +25,14 @@
   opacity: .8;
 }
 
+@media screen and (max-width:1280px) {
+  .cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin-top: 92px;
+  }
+}
+
 @media screen and (max-width:1024px) {
   .cover {
     max-width: 1024px;
@@ -32,10 +41,10 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
-    width: 768px;
+    max-height: 480px;
+    max-width: 768px;
     margin-top: 117px;
   }
 }
