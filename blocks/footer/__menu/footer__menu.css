@@ -5,8 +5,10 @@
   display: flex;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 320px) {
   .footer__menu {
     flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 48px;
   }
 }

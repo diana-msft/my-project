@@ -28,11 +28,11 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(1, 1fr);
-    margin: 64px 0 52px;  
+    margin: 64px 16px 52px;  
     max-width: 288px;
     max-height: 2724px;  
     gap: 12px;

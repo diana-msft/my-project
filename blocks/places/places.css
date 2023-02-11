@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width:748px) {
+  .places {
+    max-width: none;
+  }
+}
+
 @media screen and (max-width:320px) {
   .places {
     width: 100%;

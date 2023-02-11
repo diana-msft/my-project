@@ -13,15 +13,14 @@
   transition: ease-in .5s;
 }
 
-@media screen and (max-width:1024px) {
-  .cover__overlay {
-    /* max-height: 640px; */
-  }
-}
-
 @media screen and (max-width:768px) {
   .cover__overlay {
     max-height: 480px;
-    /* margin-top: 10px; */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    max-height: 200px;
   }
 }

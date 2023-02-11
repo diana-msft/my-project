@@ -8,21 +8,15 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    width: 90.625%;  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .lead__title {
-    width: 93.75%;
-    font-size: 96px;
+    font-size: 82px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    width: 100%;
     line-height: 1.1;
     font-size: 40px;
   }
