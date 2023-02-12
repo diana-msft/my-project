@@ -23,7 +23,3 @@
 ## Ссылка на сайт
 
  - [Путешествия по России](https://diana-msft.github.io/russian-travel/)
-
- ## Screenshots
-
-![Screenshot](https://prnt.sc/fjcMMXm8Dz6Y)
