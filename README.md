@@ -12,7 +12,7 @@
 
 ## Автор
 
-- [@diana-msft](hhttps://github.com/diana-msft)
+- [Диана Клочко](hhttps://github.com/diana-msft)
 
 
 ## Roadmap
