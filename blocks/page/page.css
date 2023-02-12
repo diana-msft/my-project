@@ -25,6 +25,13 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .page {
+    min-width: 390px;
+    min-height: none;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .page {
     min-width: 320px;
