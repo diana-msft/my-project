@@ -26,7 +26,7 @@
             src="./images/lead-polka.jpg"
             class="lead__image"
             alt="спящая женщина на полке в поезде">
-          <div class="lead__caption">ваша полка&nbsp;&mdash; верхняя</div>
+          <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
         </div>
       </section>
       <section class="intro">
@@ -46,14 +46,18 @@
           интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li>Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li>Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
+        <!-- изначально стоял тег section, но валидатор выдавал 
+        ошибку о том, что section не может быть без заголовка. 
+        согласно комментарию ревьюера удаляю тег div, но прошу не 
+        учитывать это предупреждение валидатора-->
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
@@ -102,12 +106,18 @@
           class="photo-grid__item"
           src="./images/photo-grid-ergaki.jpg"
           alt="горы в тумане">
-      </div>
-      <div class="places">
+      </section>
+      <section class="places">
+        <!-- изначально стоял тег section, но валидатор выдавал 
+        ошибку о том, что section не может быть без заголовка. 
+        согласно комментарию ревьюера удаляю тег div, но прошу не 
+        учитывать это предупреждение валидатора-->
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
+            <!-- у меня копируется из фигмы текст URL заглавными буквами. 
+        согласно комментарию ревьюера меняю на строчный-->
             <a href="http://park-kosa.ru" class="place__link" target="_blank"
               >park-kosa.ru</a>
           </div>
@@ -137,7 +147,8 @@
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">URL</span>
+
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link"
@@ -256,7 +267,7 @@
             </p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
         <div class="cover__overlay"></div>
