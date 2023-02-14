@@ -1,14 +1,15 @@
 .cover {
-  max-width: 1184px;
-  display: flex;
+  /* max-width: 1184px;
+  min-height: 200px;
+  display: flex; */
   position: relative;
   margin: 92px auto;
   padding-bottom: 0;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
+  /* background-image: url(../../images/cover-trains.jpg);
+  background-size: cover; */
 }
 
-.cover::before {
+/* .cover::before {
   content: '';
   position: absolute;
   top: 0;
@@ -22,7 +23,7 @@
 
 .cover:hover::before {
   opacity: .8;
-}
+} */
 
 @media screen and (max-width:1280px) {
   .cover {
