@@ -1,7 +1,6 @@
 .lead__container {
   margin: 64px auto 8px;
   max-width: 984px;
-  /* max-height: 615px; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,15 +17,15 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .lead__container {
+    max-width: 390px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__container {
     max-width: 320px;
     margin-top: 40px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .lead__container {
-    max-width: 390px;
   }
 }

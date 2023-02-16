@@ -9,14 +9,13 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    width: 93.75%;
+    max-width: 93.75%;
   }
 }
 
 @media screen and (max-width: 390px) {
   .intro__text {
-    width: 288px;
+    max-width: 288px;
     padding-top: 42px;
-
   }
 }
