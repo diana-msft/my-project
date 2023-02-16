@@ -9,7 +9,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     max-width: 928px;
-    max-height: 942px;
+    /* max-height: 942px; */
     margin: 92px 48px 92px;
     gap: 14px;
     grid-template-rows: repeat(4, 1fr);
@@ -23,7 +23,7 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 88px 24px 88px;
     max-width: 720px;
-    max-height: 1664px;
+    /* max-height: 1664px; */
     gap: 16px;
   }
 }
@@ -34,7 +34,7 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 64px 16px 52px;
     max-width: 340px;
-    max-height: none;
+    /* max-height: none; */
     gap: 12px;
   }
 }

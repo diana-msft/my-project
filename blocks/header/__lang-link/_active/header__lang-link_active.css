@@ -2,6 +2,6 @@
   text-decoration: underline;
 }
 
-.header__lang-link:hover {
+.header__lang-link_active:hover {
 	opacity: .8;
 }
