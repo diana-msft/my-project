@@ -4,6 +4,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
+  max-width: 484px;
+
   }
   
   .place__paragraph:nth-last-of-type(1) {
@@ -27,7 +29,14 @@
 
 @media screen and (max-width: 390px) {
   .place__paragraph {
-    max-width: 288px;
+    /* max-width: 288px; */
     padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .place__paragraph {
+    font-size: 12px;
+    max-width: 280px;
   }
 }

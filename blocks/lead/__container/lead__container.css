@@ -23,9 +23,15 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   .lead__container {
-    max-width: 320px;
+    max-width: 325px;
     margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .lead__container {
+    max-width: 270px;
   }
 }

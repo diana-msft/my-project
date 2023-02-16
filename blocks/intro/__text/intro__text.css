@@ -9,13 +9,20 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    max-width: 93.75%;
+    /* max-width: 93.75%; */
   }
 }
 
 @media screen and (max-width: 390px) {
   .intro__text {
-    max-width: 288px;
+    /* max-width: 288px; */
     padding-top: 42px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .intro__text {
+    font-size: 14px;
+    max-width: 280px;
   }
 }

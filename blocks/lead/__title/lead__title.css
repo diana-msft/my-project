@@ -8,12 +8,21 @@
   font-weight: 900;
 }
 
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
   .lead__title {
     font-size: 82px;
-    max-width: 288px;
-    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .lead__title {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__title {
+    font-size: 52px;
   }
 }
 
@@ -21,5 +30,11 @@
   .lead__title {
     line-height: 1.1;
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .lead__title {
+    font-size: 30px;
   }
 }

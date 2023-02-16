@@ -7,3 +7,10 @@
   padding: 0;
   margin: 32px 0 0;
 }
+
+@media screen and (max-width: 280px) {
+  .intro__list {
+    font-size: 10px;
+    max-width: 280px;
+  }
+}
