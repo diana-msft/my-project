@@ -2,6 +2,8 @@
   position: relative;
   margin: 92px auto 0;
   padding-bottom: 0;
+  max-width: 1184px;
+  min-height: 740px;
 }
 
 @media screen and (max-width:1280px) {
@@ -19,6 +21,8 @@
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 480px;
+    margin: 90px auto 0;
+    max-width: 768px;
   }
 }
 
