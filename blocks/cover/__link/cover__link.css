@@ -12,7 +12,7 @@
     background-size: cover;
   }
 
-  .cover::before {
+  .cover__link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@
     transition: opacity .2s ease;
   }
   
-  .cover:hover::before {
+  .cover__link:hover::before {
     opacity: .8;
   }
   
