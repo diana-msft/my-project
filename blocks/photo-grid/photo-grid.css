@@ -33,13 +33,21 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
     margin: 64px 16px 52px;
     gap: 12px;
   }
 }
+
+/* @media screen and (max-width: 390px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 64px 16px 52px;
+    gap: 12px;
+  }
+} */
 
 @media screen and (max-width: 320px) {
   .photo-grid {
