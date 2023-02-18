@@ -9,6 +9,10 @@
   text-align: right;
 }
 
+.header__lang-link:hover {
+	opacity: .8;
+}
+
 @media screen and (max-width: 390px) {
   .header__lang-link {
     font-size: 18px;
@@ -16,7 +20,4 @@
   }
 }
 
-.header__lang-link:hover {
-	opacity: .8;
-}
 

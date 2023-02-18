@@ -9,12 +9,12 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .lead__subtitle {
     font-size: 30px;
     margin-top: 32px;
   }
-}
+} */
 
 @media screen and (max-width: 580px) {
   .lead__subtitle {
