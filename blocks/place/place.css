@@ -20,13 +20,13 @@
     }
   }
 
-  @media screen and (max-width: 670px) {
+  /* @media screen and (max-width: 670px) {
     .place {
       grid-template-columns: 300px 1fr;
     }
-  }
+  } */
   
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 767px) {
     .place {
       grid-template-columns: 1fr;
     }
